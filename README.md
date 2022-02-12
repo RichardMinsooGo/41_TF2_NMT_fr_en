@@ -1,4 +1,6 @@
-## We shall understand the Source and Target formats for Transformer
+## Neural Machine Translation
 
-This repository is specially for NMT(Neural Machine Translator) and Chatbot Model.
+These codes were tested at "Google Colab".
+
+The detailed explanation will be added at Wikidocs later.
 
