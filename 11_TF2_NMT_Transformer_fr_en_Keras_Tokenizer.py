@@ -695,7 +695,7 @@ def evaluate(text):
     return tf.squeeze(output, axis=0), attention_weights
 
 def predict(text):
-    prediction = evaluate(text=text)[0].numpy()
+    prediction = evaluate(text)[0].numpy()
     prediction = np.expand_dims(prediction[1:], 0)  
     predicted_sentence = TRG_tokenizer.sequences_to_texts(prediction)[0]
     
